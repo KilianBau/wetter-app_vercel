@@ -1,0 +1,28 @@
+.entry-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.entry-list__item {
+  background: #8da9c4;
+  color: #fff;
+  font-size: 20px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.entry-list__item button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.activity-list__item button:hover {
+  color: #42576a;
+}
